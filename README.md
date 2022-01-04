@@ -1,5 +1,5 @@
 # Templates
 Quickstart templates for QUICKSILVER
 
-# Available profiles
-Happymodel CrazybeeF4spi-ELRS
+Available profiles
+* Happymodel CrazybeeF4spi-ELRS
