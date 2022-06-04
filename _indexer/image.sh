@@ -1,0 +1,1 @@
+convert $1 -resize 1024x1024^ -gravity Center -extent 1024x1024 image.jpg
