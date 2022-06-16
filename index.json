@@ -14,6 +14,12 @@
     "image": "setup/Mobula6/image.jpg"
   },
   {
+    "name": "PMB Mobeetle 6 eLRS",
+    "desc": "Project Mockingbird Acro and Angle tune for the Mobeetle 6 eLRS version running tri-blade HQ props on 702 23,0000kv motors.",
+    "category": "setup",
+    "profile": "setup/PMB_Mobeetle_6/profile.yaml"
+  },
+  {
     "name": "Fractal65 DiamondF4 Inverted",
     "desc": "Fractal65 Happymodel DiamondF4 inverted fc",
     "category": "setup",
