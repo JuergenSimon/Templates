@@ -17,7 +17,8 @@
     "name": "PMB Mobeetle 6 eLRS",
     "desc": "Project Mockingbird Acro and Angle tune for the Mobeetle 6 eLRS version running tri-blade HQ props on 702 23,0000kv motors.",
     "category": "setup",
-    "profile": "setup/PMB_Mobeetle_6/profile.yaml"
+    "profile": "setup/PMB_Mobeetle_6/profile.yaml",
+    "image": "setup/PMB_Mobeetle_6/image.jpg"
   },
   {
     "name": "Fractal65 DiamondF4 Inverted",
