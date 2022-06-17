@@ -6,14 +6,14 @@ motor:
   digital_idle: 4.5
   dshot_time: 600
   invert_yaw: 1
-  gyro_orientation: 0
+  gyro_orientation: 16
   torque_boost: 0
   throttle_boost: 0
   motor_pins:
-    - 0
-    - 1
-    - 2
     - 3
+    - 2
+    - 1
+    - 0
   turtle_throttle_percent: 100
 serial:
   rx: 0
