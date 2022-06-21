@@ -13,6 +13,6 @@ Save as /***the name of your template***/profile.yaml
 Start the first line with ***name:*** and the second line with ***desc:*** 
 Save the file as ***the name of your template***/index.yaml
 * Add an image .jpg and save as /***the name of your template***/image.jpg
-* Create a pull request and include the files you just created.
+* Commit this to the repository and create a pull request from the commit.
 
 
