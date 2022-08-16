@@ -1,7 +1,6 @@
 meta:
   version: 256
   name: "MockingBeetleQS\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
-  datetime: 1654455164
 motor:
   digital_idle: 4.5
   dshot_time: 600

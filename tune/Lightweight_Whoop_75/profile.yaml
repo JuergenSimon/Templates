@@ -1,3 +1,5 @@
+meta:
+  version: 512
 filter:
   gyro:
     - type: 3

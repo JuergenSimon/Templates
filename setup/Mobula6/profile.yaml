@@ -1,4 +1,6 @@
 ---
+meta:
+  version: 512
 motor:
   digital_idle: 4.5
   dshot_time: 600
