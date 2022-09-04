@@ -26,5 +26,12 @@
     "category": "setup",
     "profile": "setup/Fractal64_DiamondF4_Inverted/profile.yaml",
     "image": "setup/Fractal64_DiamondF4_Inverted/image.jpg"
+  },
+  {
+    "name": "Mobthicc",
+    "desc": "Heads InfinityLoops Fractal75",
+    "category": "setup",
+    "profile": "setup/Mobthicc/profile.yaml",
+    "image": "setup/Mobthicc/image.jpg"
   }
 ]
