@@ -37,6 +37,7 @@ jobs:
       - name: update develop-deploy
         run: |
           git add .
-          git commit -m "Deploy $GITHUB_SHA" || exit 0
+          git add -f index.json
+          git commit -m "Deploy $GITHUB_SHA" || true
           git remote set-url --push origin https://actions:$GITHUB_TOKEN@github.com/BossHobby/Templates
           git push -f
