@@ -1,9 +1,12 @@
-name: icm42688
-desc: easily offended
+name: bmi270
+desc: hopefully it actually passed emissions testing
+selector:
+  gyro_name:
+    - BMI270
 profile:
   filter:
     gyro:
-      - type: 2
+      - type: 1
         cutoff_freq: 100
       - type: 0
         cutoff_freq: 90

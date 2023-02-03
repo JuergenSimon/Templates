@@ -4,3 +4,4 @@ options:
   - name: gyro
     title: Gyro
     desc: add something here
+    default: default
