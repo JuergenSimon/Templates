@@ -1,9 +1,17 @@
 import fs from "fs";
 import path from "path";
 import YAML from "yaml";
+import Ajv from "ajv/dist/2020.js"
+
+import indexSchema from "./schema/index.json" assert { type: "json" };
+import optionSchema from "./schema/option.json" assert { type: "json" };
 
 const INDEX_FILENAME = "index.yaml";
 const PROFILE_FILENAME = "profile.yaml";
+
+const ajv = new Ajv();
+const indexValid = ajv.compile(indexSchema);
+const optionValid = ajv.compile(optionSchema);
 
 async function* walk(dir) {
   const files = [];
@@ -34,11 +42,16 @@ async function compileEntries(dir, name) {
 
   const folder = path.join(dir, name)
   for await (const f of await fs.promises.opendir(folder)) {
-    if (!f.isFile() || path.extname(f.name) != ".yaml") {
+    if (!f.isFile() || path.extname(f.name) != ".yaml" || f.name.endsWith(".option.yaml")) {
       continue;
     }
 
     const entry = YAML.parse(await fs.promises.readFile(path.join(folder, f.name), 'utf8'));
+    if (!optionValid(index)) {
+      console.log(optionValid.errors);
+      process.exit(1);
+    }
+
     entries.push({
       name: entry.name,
       desc: entry.desc,
@@ -54,6 +67,11 @@ for await (const f of walk('.')) {
   console.log("processing", f.dir)
 
   const index = YAML.parse(await fs.promises.readFile(path.join(f.dir, INDEX_FILENAME), 'utf8'));
+  if (!indexValid(index)) {
+    console.log(indexValid.errors);
+    process.exit(1);
+  }
+
   if (index.options) {
     const options = [];
     for(const option of index.options) {

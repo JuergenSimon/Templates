@@ -1,0 +1,46 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/BossHobby/Templates/develop-deploy/_indexer/schema/option.json",
+    "title": "QS Template Option",
+    "description": "One possible option value",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "name": {
+            "description": "The unique identifier name for a option",
+            "type": "string"
+        },
+        "desc": {
+            "description": "Description for a option",
+            "type": "string"
+        },
+        "selector": {
+            "description": "Selector to pre-select a given option",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "gyro_name": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "target_name": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "profile": {
+            "description": "Profile fragment to apply",
+            "type": "object"
+        }
+    },
+    "required": [
+        "name",
+        "desc",
+        "profile"
+    ]
+}

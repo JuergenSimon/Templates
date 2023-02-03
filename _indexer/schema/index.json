@@ -1,0 +1,50 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/BossHobby/Templates/develop-deploy/_indexer/schema/index.json",
+    "title": "QS Template Index",
+    "description": "Index file for a template",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "name": {
+            "description": "The unique identifier name for a template",
+            "type": "string"
+        },
+        "desc": {
+            "description": "Description for a template",
+            "type": "string"
+        },
+        "options": {
+            "description": "Options to to present to the user",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The unique identifier name for a option, must match folder containing the options"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "desc": {
+                        "type": "string"
+                    },
+                    "default": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "name",
+                    "title",
+                    "desc"
+                ]
+            }
+        }
+    },
+    "required": [
+        "name",
+        "desc"
+    ]
+}

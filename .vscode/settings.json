@@ -1,0 +1,10 @@
+{
+    "yaml.schemas": {
+        "_indexer/schema/index.json": [
+            "index.yaml"
+        ],
+        "_indexer/schema/option.json": [
+            "*.option.yaml"
+        ]
+    }
+}
