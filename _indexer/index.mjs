@@ -42,7 +42,7 @@ async function compileEntries(dir, name) {
     entries.push({
       name: entry.name,
       desc: entry.desc,
-      file: path.join(name, f.name)
+      file: path.join(dir, name, f.name)
     })
   }
   
