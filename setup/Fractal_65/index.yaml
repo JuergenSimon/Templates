@@ -1,0 +1,6 @@
+name: Fractal 65
+desc: test
+options:
+  - name: gyro
+    title: Gyro
+    desc: add something here

@@ -3,6 +3,7 @@ import path from "path";
 import YAML from "yaml";
 
 const INDEX_FILENAME = "index.yaml";
+const PROFILE_FILENAME = "profile.yaml";
 
 async function* walk(dir) {
   const files = [];
@@ -28,15 +29,47 @@ async function* walk(dir) {
   }
 }
 
+async function compileEntries(dir, name) {
+  const entries = []
+
+  const folder = path.join(dir, name)
+  for await (const f of await fs.promises.opendir(folder)) {
+    if (!f.isFile() || path.extname(f.name) != ".yaml") {
+      continue;
+    }
+
+    const entry = YAML.parse(await fs.promises.readFile(path.join(folder, f.name), 'utf8'));
+    entries.push({
+      name: entry.name,
+      desc: entry.desc,
+      file: path.join(name, f.name)
+    })
+  }
+  
+  return entries;
+}
+
 const entries = [];
 for await (const f of walk('.')) {
+  console.log("processing", f.dir)
+
   const index = YAML.parse(await fs.promises.readFile(path.join(f.dir, INDEX_FILENAME), 'utf8'));
+  if (index.options) {
+    const options = [];
+    for(const option of index.options) {
+      options.push({
+        ...option,
+        entries: await compileEntries(f.dir, option.name)
+      })
+    }
+    index.options = options;
+  }
   
   const category = path.dirname(f.dir);
   const entry = {
     ...index,
     category,
-    profile: path.join(f.dir, "profile.yaml")
+    profile: path.join(f.dir, PROFILE_FILENAME)
   };
 
   const image = f.files.find(f => f.name.startsWith("image"));
