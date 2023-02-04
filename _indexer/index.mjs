@@ -42,12 +42,12 @@ async function compileEntries(dir, name) {
 
   const folder = path.join(dir, name)
   for await (const f of await fs.promises.opendir(folder)) {
-    if (!f.isFile() || path.extname(f.name) != ".yaml" || f.name.endsWith(".option.yaml")) {
+    if (!f.isFile() || path.extname(f.name) != ".yaml" || !f.name.endsWith(".option.yaml")) {
       continue;
     }
 
     const entry = YAML.parse(await fs.promises.readFile(path.join(folder, f.name), 'utf8'));
-    if (!optionValid(index)) {
+    if (!optionValid(entry)) {
       console.log(optionValid.errors);
       process.exit(1);
     }
