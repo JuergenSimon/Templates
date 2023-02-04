@@ -55,6 +55,7 @@ async function compileEntries(dir, name) {
     entries.push({
       name: entry.name,
       desc: entry.desc,
+      selector: entry.selector,
       file: path.join(dir, name, f.name)
     })
   }
