@@ -1,0 +1,10 @@
+name: diamond_f4_elrs
+desc: Happymodel Diamond F4 with elrs
+profile:
+  motor_pins:
+    - 1
+    - 0
+    - 3
+    - 2
+  receiver:
+    protocol: 14

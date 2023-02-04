@@ -1,0 +1,10 @@
+name: diamond_f4_frsky
+desc: Happymodel Diamond F4 with frsky
+profile:
+  motor_pins:
+    - 1
+    - 0
+    - 3
+    - 2
+  receiver:
+    protocol: 10

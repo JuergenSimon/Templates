@@ -1,0 +1,9 @@
+name: Fractal 75
+desc: test
+options:
+  - name: fc
+    title: Flight Controller
+    default: diamond_f4_elrs
+  - name: gyro
+    title: Gyro
+    default: default
