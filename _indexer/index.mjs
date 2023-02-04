@@ -99,4 +99,8 @@ for await (const f of walk('.')) {
   entries.push(entry);
 }
 
+entries.sort((a,b) => {
+  return a.name.localeCompare(b.name)
+})
+
 await fs.promises.writeFile("index.json", JSON.stringify(entries, undefined, 2));
