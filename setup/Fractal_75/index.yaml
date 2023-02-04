@@ -1,5 +1,5 @@
 name: Fractal 75
-desc: test
+desc: F75
 options:
   - name: fc
     title: Flight Controller
