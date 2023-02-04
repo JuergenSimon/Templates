@@ -37,8 +37,7 @@
                 },
                 "required": [
                     "name",
-                    "title",
-                    "desc"
+                    "title"
                 ]
             }
         }
