@@ -1,0 +1,10 @@
+name: Normal
+desc: Normal orientation (USB facing DOWN)
+profile:
+  motor:
+    motor_pins:
+      - 0
+      - 1
+      - 2
+      - 3
+      
