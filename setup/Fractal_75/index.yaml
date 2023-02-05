@@ -1,4 +1,5 @@
 name: Fractal 75
+author: Fractal Engineering
 desc: Configurable template for the Fractal 75
 options:
   - name: fc
@@ -10,4 +11,3 @@ options:
     default: upside-down
   - name: vtx
     title: VTX type
-    

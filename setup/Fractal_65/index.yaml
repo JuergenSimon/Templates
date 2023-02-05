@@ -1,4 +1,5 @@
 name: Fractal 65
+author: Fractal Engineering
 desc: test
 options:
   - name: gyro
