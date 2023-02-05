@@ -40,10 +40,15 @@
                     "title"
                 ]
             }
+        },
+        "author": {
+            "description": "Author of the template",
+            "type": "string"
         }
     },
     "required": [
         "name",
-        "desc"
+        "desc",
+        "author"
     ]
 }
