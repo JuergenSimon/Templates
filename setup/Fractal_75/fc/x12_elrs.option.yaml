@@ -1,5 +1,6 @@
-name: Happymodel X12 ELRS
-desc: Happymodel X12 ELRS 
+name: happymodel_x12_elrs
+title: Happymodel X12 ELRS
+desc: Happymodel X12 ELRS
 profile:
   motor_pins:
     - 1

@@ -1,4 +1,5 @@
 name: diamond_f4_frsky
+title: Happymodel Diamond F4 FrSky
 desc: Happymodel Diamond F4 with frsky
 profile:
   motor_pins:

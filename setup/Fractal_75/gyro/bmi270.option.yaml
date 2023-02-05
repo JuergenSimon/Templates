@@ -1,4 +1,5 @@
-name: BMI270
+name: bmi270
+title: BMI270
 desc: hopefully it actually passed emissions testing
 selector:
   gyro_name:

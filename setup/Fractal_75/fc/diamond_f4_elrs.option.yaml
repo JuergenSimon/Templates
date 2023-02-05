@@ -1,4 +1,5 @@
 name: diamond_f4_elrs
+title: Happymodel Diamond F4 ELRS
 desc: Happymodel Diamond F4 with elrs
 profile:
   motor_pins:

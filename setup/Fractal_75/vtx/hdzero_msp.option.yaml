@@ -1,4 +1,5 @@
-name: HDZero
+name: hdzero
+title: HDZero
 desc: HDZ over MSP
 profile:
   motor_pins:

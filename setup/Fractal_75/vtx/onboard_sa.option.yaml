@@ -1,4 +1,5 @@
-name: Onboard VTX
+name: onboard_vtx
+title: Onboard VTX
 desc: Onboard happymodel VTX
 profile:
   motor_pins:

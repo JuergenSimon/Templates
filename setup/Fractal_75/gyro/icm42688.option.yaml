@@ -1,4 +1,5 @@
-name: ICM-42688-P
+name: icm42688p
+title: ICM-42688-P
 desc: Nearly there
 selector:
   gyro_name:

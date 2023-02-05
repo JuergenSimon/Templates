@@ -1,4 +1,5 @@
-name: Upside-Down
+name: upside-down
+title: Upside-Down
 desc: Flipped upside-down (USB facing UP)
 profile:
   motor:
