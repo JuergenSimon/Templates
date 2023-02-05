@@ -10,6 +10,10 @@
             "description": "The unique identifier name for a option",
             "type": "string"
         },
+        "title": {
+            "description": "Display name for a option",
+            "type": "string"
+        },
         "desc": {
             "description": "Description for a option",
             "type": "string"
@@ -40,6 +44,7 @@
     },
     "required": [
         "name",
+        "title",
         "desc",
         "profile"
     ]
