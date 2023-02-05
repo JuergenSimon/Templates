@@ -1,0 +1,10 @@
+name: Happymodel Superbee F4 ELRS
+desc: Happymodel Superbee F4 ELRS 
+profile:
+  motor_pins:
+    - 1
+    - 0
+    - 3
+    - 2
+  receiver:
+    protocol: 14

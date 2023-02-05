@@ -1,0 +1,10 @@
+name: Onboard VTX
+desc: Onboard happymodel VTX
+profile:
+  motor_pins:
+    - 1
+    - 0
+    - 3
+    - 2
+  receiver:
+    protocol: 14

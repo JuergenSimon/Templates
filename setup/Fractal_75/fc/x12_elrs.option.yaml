@@ -1,0 +1,10 @@
+name: Happymodel X12 ELRS
+desc: Happymodel X12 ELRS 
+profile:
+  motor_pins:
+    - 1
+    - 0
+    - 3
+    - 2
+  receiver:
+    protocol: 14
