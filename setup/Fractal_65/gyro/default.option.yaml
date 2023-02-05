@@ -1,4 +1,5 @@
 name: default
+title: Default
 desc: for other gyros
 profile:
   filter:

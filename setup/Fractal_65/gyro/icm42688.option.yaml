@@ -1,4 +1,5 @@
 name: icm42688
+title: ICM-42688-P
 desc: easily offended
 selector:
   gyro_name:
