@@ -1,5 +1,5 @@
 name: default
-desc: for other gyros
+desc: for every other gyros (MPU6000, ICM20689, etc...)
 profile:
   filter:
     gyro:

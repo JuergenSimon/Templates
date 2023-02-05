@@ -1,9 +1,13 @@
 name: Fractal 75
-desc: F75
+desc: Configurable template for the Fractal 75
 options:
   - name: fc
     title: Flight Controller
-    default: diamond_f4_elrs
   - name: gyro
     title: Gyro
-    default: default
+  - name: orientation
+    title: Board Orientation
+    default: upside-down
+  - name: vtx
+    title: VTX type
+    

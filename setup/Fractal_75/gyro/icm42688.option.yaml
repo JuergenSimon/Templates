@@ -1,5 +1,5 @@
-name: icm42688
-desc: easily offended
+name: ICM-42688-P
+desc: Nearly there
 selector:
   gyro_name:
     - ICM42688P
