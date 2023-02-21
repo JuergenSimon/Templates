@@ -44,6 +44,49 @@
         "author": {
             "description": "Author of the template",
             "type": "string"
+        },
+        "mutations": {
+            "description": "Mutations to apply after the options were rendered",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The unique identifier name for the mutation"
+                    },
+                    "options": {
+                        "description": "Mutation in <profile> to apply given <selector> matches",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "The unique identifier name for the option"
+                                },
+                                "selector": {
+                                    "type": "object"
+                                },
+                                "profile": {
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "selector",
+                                "profile"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "name",
+                    "options"
+                ]
+            }
         }
     },
     "required": [

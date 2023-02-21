@@ -11,3 +11,18 @@ options:
     default: upside-down
   - name: vtx
     title: VTX type
+mutations:
+  - name: gyro_orientation
+    options:
+      - name: df4_default
+        selector:
+          fc:
+            - diamond_f4_elrs
+            - diamond_f4_frsky
+          gyro:
+            - default
+          orientation:
+            - normal
+        profile:
+          motor:
+            gyro_orientation: 40
