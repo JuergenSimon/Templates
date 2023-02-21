@@ -62,7 +62,7 @@ async function compileEntries(dir, name) {
     })
   }
   
-  return entries;
+  return entries.sort((a, b) => a.title.localeCompare(b.title));
 }
 
 const entries = [];
