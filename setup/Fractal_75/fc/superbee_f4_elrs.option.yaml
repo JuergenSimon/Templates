@@ -1,11 +1,87 @@
 name: superbee_f4_elrs
 title: Happymodel Superbee F4 ELRS
-desc: Happymodel Superbee F4 ELRS
+desc: Happymodel Superbee F4 ELRS (Upside-Down)
 profile:
   motor_pins:
-    - 1
-    - 0
-    - 3
     - 2
+    - 3
+    - 0
+    - 1
   receiver:
     protocol: 14
+
+  osd:
+    elements:
+      - 1063
+      - 14381
+      - 14340
+      - 14393
+      - 14433
+      - 13353
+      - 1121
+      - 13409
+      - 6177
+      - 13317
+      - 1028
+      - 14341
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    elements_hd:
+      - 79
+      - 17493
+      - 17408
+      - 17505
+      - 17585
+      - 16465
+      - 177
+      - 16561
+      - 8265
+      - 16385
+      - 1
+      - 17409
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+
+  voltage:
+    lipo_cell_count: 1
+    pid_voltage_compensation: 1
+    vbattlow: 3.3
+    actual_battery_voltage: 4.35
+    reported_telemetry_voltage: 4.35
+    ibat_scale: 1175

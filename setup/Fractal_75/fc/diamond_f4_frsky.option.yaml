@@ -1,6 +1,6 @@
 name: diamond_f4_frsky
 title: Happymodel Diamond F4 FrSky
-desc: Happymodel Diamond F4 with frsky
+desc: Happymodel Diamond F4 with SPI frsky (Upside-Down)
 profile:
   motor_pins:
     - 1

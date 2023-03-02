@@ -1,28 +1,33 @@
 name: Fractal 75
 author: Fractal Engineering
-desc: Configurable template for the Fractal 75
+desc: Configurable template for the Fractal 75 - Make sure to check motor rotation before sending it!
 options:
   - name: fc
     title: Flight Controller
   - name: gyro
     title: Gyro
-  - name: orientation
-    title: Board Orientation
-    default: upside-down
   - name: vtx
     title: VTX type
+
 mutations:
-  - name: gyro_orientation
+  - name: Gyro modifiers
     options:
-      - name: df4_default
+      - name: df4_icm42688
         selector:
           fc:
             - diamond_f4_elrs
             - diamond_f4_frsky
           gyro:
-            - default
-          orientation:
-            - normal
+            - icm42688
         profile:
           motor:
-            gyro_orientation: 40
+            gyro_orientation: 48
+      - name: x12_bmi270
+        selector:
+          fc:
+            - x12_elrs
+          gyro:
+            - bmi270
+        profile:
+          motor:
+            gyro_orientation: 36

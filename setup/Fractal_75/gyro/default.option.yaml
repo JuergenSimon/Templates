@@ -1,12 +1,14 @@
 name: default
 title: Default
-desc: for every other gyros (MPU6000, ICM20689, etc...)
+desc: The Good - for every other gyros (MPU6000, ICM20689, etc...)
+
 profile:
+  
   filter:
     gyro:
-      - type: 2
-        cutoff_freq: 100
-      - type: 0
+      - type: 1
+        cutoff_freq: 90
+      - type: 1
         cutoff_freq: 90
     dterm:
       - type: 1
@@ -16,30 +18,31 @@ profile:
     dterm_dynamic_enable: 1
     dterm_dynamic_min: 70
     dterm_dynamic_max: 260
+  
   pid:
     pid_profile: 0
     pid_rates:
       - kp:
-          - 117
-          - 117
-          - 150
+          - 127
+          - 127
+          - 148
         ki:
           - 77
           - 77
           - 77
         kd:
-          - 41
-          - 41
-          - 11
+          - 101
+          - 101
+          - 13
       - kp:
-          - 130
-          - 130
-          - 140
+          - 127
+          - 127
+          - 148
         ki:
           - 77
           - 77
           - 77
         kd:
-          - 42
-          - 42
-          - 11
+          - 101
+          - 101
+          - 13

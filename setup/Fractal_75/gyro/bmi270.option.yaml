@@ -1,13 +1,15 @@
 name: bmi270
 title: BMI270
-desc: hopefully it actually passed emissions testing
+desc: The Bad
 selector:
   gyro_name:
     - BMI270
+
 profile:
+
   filter:
     gyro:
-      - type: 1
+      - type: 2
         cutoff_freq: 100
       - type: 0
         cutoff_freq: 90
@@ -19,30 +21,31 @@ profile:
     dterm_dynamic_enable: 1
     dterm_dynamic_min: 70
     dterm_dynamic_max: 260
+  
   pid:
     pid_profile: 0
     pid_rates:
       - kp:
-          - 130
-          - 130
-          - 140
+          - 127
+          - 127
+          - 148
         ki:
           - 77
           - 77
           - 77
         kd:
-          - 42
-          - 42
+          - 51
+          - 51
           - 11
       - kp:
-          - 91
-          - 91
-          - 78.5
+          - 127
+          - 127
+          - 148
         ki:
-          - 70
-          - 70
-          - 70
+          - 77
+          - 77
+          - 77
         kd:
-          - 54
-          - 54
-          - 6
+          - 51
+          - 51
+          - 11

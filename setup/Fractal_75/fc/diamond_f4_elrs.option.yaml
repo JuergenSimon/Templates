@@ -1,6 +1,6 @@
 name: diamond_f4_elrs
 title: Happymodel Diamond F4 ELRS
-desc: Happymodel Diamond F4 with elrs
+desc: Happymodel Diamond F4 with SPI elrs (Upside-Down)
 profile:
   motor_pins:
     - 1
