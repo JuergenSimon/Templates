@@ -6,7 +6,7 @@ options:
     title: Flight Controller
   - name: gyro
     title: Gyro
-    default: DEFAULT
+    default: default
   - name: vtx
     title: VTX type
 

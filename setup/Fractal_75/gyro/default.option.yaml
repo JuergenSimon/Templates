@@ -3,7 +3,8 @@ title: Default
 desc: The Good - for every other gyros (MPU6000, ICM20689, etc...)
 selector:
   gyro_name:
-    - DEFAULT
+    - MPU6000
+    - ICM20689
 
 profile:
   
