@@ -1,3 +1,10 @@
+# Main profile based off Diamond F4 ELRS ICM20689
+
+# Gyro orientation, Motor assignment, OSD and voltage defined in FC
+# Filter and PID defined in GYRO
+# Gyro/FC modifier defined in index
+# Video uart assigned in VTX
+
 meta:
   name: F75 Configurable Template Rev. 0.1
 
@@ -6,7 +13,7 @@ motor:
   motor_limit: 100
   dshot_time: 600
   invert_yaw: 1
-  gyro_orientation:
+  gyro_orientation: 40
   torque_boost: 0
   throttle_boost: 0
   motor_pins:
