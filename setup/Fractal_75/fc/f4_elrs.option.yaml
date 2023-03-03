@@ -78,11 +78,4 @@ profile:
       - 0
       - 0
       - 0
-
-  voltage:
-    lipo_cell_count: 1
-    pid_voltage_compensation: 1
-    vbattlow: 3.3
-    actual_battery_voltage: 4.188
-    reported_telemetry_voltage: 4.1
-    ibat_scale: 1175
+      

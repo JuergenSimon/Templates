@@ -13,14 +13,6 @@ profile:
         cutoff_freq: 100
       - type: 0
         cutoff_freq: 90
-    dterm:
-      - type: 1
-        cutoff_freq: 260
-      - type: 0
-        cutoff_freq: 0
-    dterm_dynamic_enable: 1
-    dterm_dynamic_min: 70
-    dterm_dynamic_max: 260
   
   pid:
     pid_profile: 0
@@ -37,15 +29,4 @@ profile:
           - 51
           - 51
           - 11
-      - kp:
-          - 127
-          - 127
-          - 148
-        ki:
-          - 77
-          - 77
-          - 77
-        kd:
-          - 51
-          - 51
-          - 11
+

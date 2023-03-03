@@ -9,23 +9,23 @@ profile:
   
   filter:
     gyro:
-      - type: 2
+      - type: 3
         cutoff_freq: 100
       - type: 0
         cutoff_freq: 90
-
+  
   pid:
     pid_profile: 0
     pid_rates:
       - kp:
-          - 127
-          - 127
-          - 148
+          - 91
+          - 91
+          - 78.5
         ki:
-          - 77
-          - 77
-          - 77
+          - 70
+          - 70
+          - 70
         kd:
-          - 101
-          - 101
-          - 13
+          - 54
+          - 54
+          - 6

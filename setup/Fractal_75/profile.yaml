@@ -1,4 +1,4 @@
-# Main profile based off Diamond F4 ELRS ICM20689
+# Main profile based off Diamond F4 ELRS (any gyro)
 
 # Gyro orientation, Motor assignment, OSD and voltage defined in FC
 # Filter and PID defined in GYRO
@@ -224,6 +224,6 @@ voltage:
   lipo_cell_count: 1
   pid_voltage_compensation: 1
   vbattlow: 3.3
-  actual_battery_voltage: 4.35
-  reported_telemetry_voltage: 4.35
+  actual_battery_voltage: 4.2
+  reported_telemetry_voltage: 4.2
   ibat_scale: 1175

@@ -1,8 +1,34 @@
 name: Fractal 65
 author: Fractal Engineering
-desc: test
+desc: Configurable template for the Fractal 65 - Make sure to check motor rotation before sending it!
 options:
+  - name: fc
+    title: Flight Controller
   - name: gyro
     title: Gyro
-    desc: add something here
     default: default
+  - name: vtx
+    title: VTX type
+
+mutations:
+  - name: Gyro modifiers
+    options:
+      - name: df4_icm42688p
+        selector:
+          fc:
+            - diamond_f4_elrs
+            - diamond_f4_frsky
+          gyro:
+            - icm42688p
+        profile:
+          motor:
+            gyro_orientation: 48
+      - name: x12_bmi270
+        selector:
+          fc:
+            - x12_elrs
+          gyro:
+            - bmi270
+        profile:
+          motor:
+            gyro_orientation: 36
