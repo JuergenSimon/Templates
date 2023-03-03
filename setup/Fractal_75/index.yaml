@@ -13,13 +13,13 @@ options:
 mutations:
   - name: Gyro modifiers
     options:
-      - name: df4_icm42688
+      - name: df4_icm42688p
         selector:
           fc:
             - diamond_f4_elrs
             - diamond_f4_frsky
           gyro:
-            - icm42688
+            - icm42688p
         profile:
           motor:
             gyro_orientation: 48
