@@ -6,7 +6,7 @@
 # Video uart assigned in VTX
 
 meta:
-  name: F75 Configurable Template Beta 1
+  name: F65 Customized Template Beta 1
 
 motor:
   digital_idle: 4.5

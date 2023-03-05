@@ -1,6 +1,6 @@
 name: Fractal 65
 author: Fractal Engineering
-desc: Configurable template for the Fractal 65 - Make sure to check motor rotation before sending it!
+desc: Customizable template for the Fractal 65 - Make sure to check motor rotation before sending it!
 options:
   - name: fc
     title: Flight Controller

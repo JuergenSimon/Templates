@@ -1,6 +1,6 @@
 name: happymodel_x12_elrs
-title: Happymodel X12 ELRS
-desc: Happymodel X12 ELRS (Upside-Down)
+title: Happymodel X12 & X12 Lite ELRS
+desc: Happymodel X12 & X12 Lite ELRS (Upside-Down)
 profile:
   gyro_orientation: 32
   motor_pins:
