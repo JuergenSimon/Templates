@@ -2,12 +2,14 @@ name: superbee_f4_elrs
 title: Happymodel Superbee F4 ELRS
 desc: Happymodel Superbee F4 ELRS (Upside-Down)
 profile:
-  gyro_orientation: 32
-  motor_pins:
-    - 2
-    - 3
-    - 0
-    - 1
+  motor:
+    gyro_orientation: 32
+    motor_pins:
+      - 2
+      - 3
+      - 0
+      - 1
+
   receiver:
     protocol: 14
 
@@ -78,4 +80,3 @@ profile:
       - 0
       - 0
       - 0
-      

@@ -2,12 +2,14 @@ name: happymodel_x12_elrs
 title: Happymodel X12 & X12 Lite ELRS
 desc: Happymodel X12 & X12 Lite ELRS (Upside-Down)
 profile:
-  gyro_orientation: 32
-  motor_pins:
-    - 2
-    - 3
-    - 0
-    - 1
+  motor:
+    gyro_orientation: 32
+    motor_pins:
+      - 2
+      - 3
+      - 0
+      - 1
+
   receiver:
     protocol: 14
 
@@ -17,7 +19,7 @@ profile:
       - 14381
       - 14340
       - 14393
-      - 13408
+      - 13409
       - 13353
       - 1121
       - 14433

@@ -2,10 +2,13 @@ name: diamond_f4_elrs
 title: Happymodel Diamond F4 ELRS
 desc: Happymodel Diamond F4 with SPI elrs (Upside-Down)
 profile:
-  motor_pins:
-    - 1
-    - 0
-    - 3
-    - 2
+  motor:
+    gyro_orientation: 40
+    motor_pins:
+      - 1
+      - 0
+      - 3
+      - 2
+
   receiver:
     protocol: 14
