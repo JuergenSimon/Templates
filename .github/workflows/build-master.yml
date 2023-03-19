@@ -1,0 +1,43 @@
+name: build
+on:
+  push:
+    branches:
+      - 'master'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: cache node_modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node_modules
+
+      - name: checkout master-deploy
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git pull
+          git checkout master-deploy
+          git reset --hard master
+
+      - name: install npm packages
+        run: cd _indexer && npm install
+
+      - name: run indexer
+        run: node _indexer/index.mjs
+
+      - name: update master-deploy
+        run: |
+          git add .
+          git add -f index.json
+          git commit -m "Deploy $GITHUB_SHA" || true
+          git remote set-url --push origin https://actions:$GITHUB_TOKEN@github.com/BossHobby/Templates
+          git push -f
