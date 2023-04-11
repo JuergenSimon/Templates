@@ -13,6 +13,7 @@ options:
 mutations:
   - name: Gyro modifiers
     options:
+
       - name: df4_icm42688p
         selector:
           fc:
@@ -23,6 +24,7 @@ mutations:
         profile:
           motor:
             gyro_orientation: 48
+
       - name: x12_bmi270
         selector:
           fc:
@@ -32,3 +34,13 @@ mutations:
         profile:
           motor:
             gyro_orientation: 36
+
+      - name: superbee_bmi270
+        selector:
+         fc:
+          - x12_elrs
+         gyro:
+          - bmi270
+        profile:
+          motor:
+           gyro_orientation: 36
