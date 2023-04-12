@@ -38,7 +38,7 @@ mutations:
       - name: superbee_bmi270
         selector:
          fc:
-          - x12_elrs
+          - superbee_f4_elrs
          gyro:
           - bmi270
         profile:
