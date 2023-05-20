@@ -1,0 +1,31 @@
+name: default
+title: Default
+desc: The Good - for every other gyros (MPU6000, ICM20689, etc...)
+
+
+
+
+profile:
+  
+  filter:
+    gyro:
+      - type: 1
+        cutoff_freq: 90
+      - type: 1
+        cutoff_freq: 90
+  
+  pid:
+    pid_profile: 0
+    pid_rates:
+    - kp:
+        - 91
+        - 91
+        - 78.5
+      ki:
+        - 70
+        - 70
+        - 70
+      kd:
+        - 54
+        - 54
+        - 6

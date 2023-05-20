@@ -1,0 +1,88 @@
+name: happymodel_x12_elrs
+title: Happymodel X12 ELRS
+desc: Happymodel X12 ELRS (USB facing forwards and down)
+profile:
+  gyro_orientation: 16
+  motor_pins:
+    - 2
+    - 3
+    - 0
+    - 1
+  receiver:
+    protocol: 14
+
+  osd:
+    elements:
+      - 1063
+      - 14381
+      - 14340
+      - 14393
+      - 13408
+      - 13353
+      - 1121
+      - 14433
+      - 6177
+      - 13317
+      - 1029
+      - 14341
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    elements_hd:
+      - 79
+      - 17493
+      - 17408
+      - 17505
+      - 17585
+      - 16465
+      - 177
+      - 16561
+      - 8265
+      - 16385
+      - 0
+      - 17409
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+
+  voltage:
+    lipo_cell_count: 1
+    pid_voltage_compensation: 1
+    vbattlow: 3.3
+    actual_battery_voltage: 4.2
+    reported_telemetry_voltage: 4.2
+    ibat_scale: 470

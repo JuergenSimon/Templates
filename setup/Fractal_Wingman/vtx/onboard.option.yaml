@@ -1,0 +1,8 @@
+name: onboard_vtx
+title: Onboard/External Analog VTX
+desc: Onboard or External Analog VTX (Uart 2)
+profile:
+  serial:
+    rx: 0
+    smart_audio: 2
+    hdzero: 0

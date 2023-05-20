@@ -1,6 +1,6 @@
-name: Fractal 65
+name: Fractal Wingman
 author: Fractal Engineering
-desc: Customizable template for the Fractal 65 - Make sure to check motor rotation before sending it!
+desc: Customizable template for the Fractal Wingman - Make sure to check motor rotation before sending it!
 options:
   - name: fc
     title: Flight Controller
@@ -23,7 +23,6 @@ mutations:
         profile:
           motor:
             gyro_orientation: 48
-
       - name: x12_bmi270
         selector:
           fc:
@@ -33,13 +32,3 @@ mutations:
         profile:
           motor:
             gyro_orientation: 36
-
-      - name: superbee_bmi270
-        selector:
-         fc:
-          - superbee_f4_elrs
-         gyro:
-          - bmi270
-        profile:
-          motor:
-           gyro_orientation: 36

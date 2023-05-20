@@ -1,0 +1,31 @@
+name: bmi270
+title: BMI270
+desc: The Bad
+selector:
+  gyro_name:
+    - BMI270
+
+profile:
+
+  filter:
+    gyro:
+      - type: 2
+        cutoff_freq: 100
+      - type: 0
+        cutoff_freq: 90
+  
+  pid:
+    pid_profile: 0
+    pid_rates:
+    - kp:
+        - 91
+        - 91
+        - 78.5
+      ki:
+        - 70
+        - 70
+        - 70
+      kd:
+        - 27
+        - 27
+        - 6

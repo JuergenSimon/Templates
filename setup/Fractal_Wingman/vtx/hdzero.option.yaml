@@ -1,0 +1,8 @@
+name: hdzero
+title: HDZero
+desc: HDZero over MSP (Uart 1)
+profile:
+  serial:
+    rx: 0
+    smart_audio: 0
+    hdzero: 1

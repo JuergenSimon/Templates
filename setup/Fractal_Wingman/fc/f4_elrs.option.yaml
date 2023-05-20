@@ -1,0 +1,81 @@
+name: happymodel_f4_elrs
+title: Happymodel F4 ELRS
+desc: Happymodel F4 ELRS (USB facing forwards and down)
+profile:
+  gyro_orientation: 32
+  motor_pins:
+    - 2
+    - 3
+    - 0
+    - 1
+  receiver:
+    protocol: 14
+  
+  osd:
+    elements:
+      - 1063
+      - 14381
+      - 14340
+      - 14395
+      - 14433
+      - 13353
+      - 1121
+      - 13411
+      - 6177
+      - 13317
+      - 1029
+      - 14341
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    elements_hd:
+      - 79
+      - 17493
+      - 17408
+      - 17505
+      - 17585
+      - 16465
+      - 177
+      - 16561
+      - 8265
+      - 16385
+      - 0
+      - 17409
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      
