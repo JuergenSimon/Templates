@@ -13,6 +13,9 @@ profile:
 
   receiver:
     protocol: 1
+      
+  serial:
+    rx: 2
 
   osd:
     elements:
