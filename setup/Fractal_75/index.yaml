@@ -44,3 +44,13 @@ mutations:
         profile:
           motor:
            gyro_orientation: 36
+
+      - name: CrossF4_HDZero Uart
+        selector:
+          fc:
+            - cross_f4_elrs
+          vtx:
+            - hdzero
+        profile:
+            serial:
+              hdzero: 1

@@ -1,6 +1,6 @@
 name: hdzero
 title: HDZero
-desc: HDZero over MSP (Uart 2)
+desc: HDZero over MSP (Uart 2 on all except Cross F4 on Uart 1)
 profile:
   serial:
     rx: 0
