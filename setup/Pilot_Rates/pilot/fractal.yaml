@@ -1,0 +1,18 @@
+name: fractal
+title: Fractal actual rates
+desc: 
+profile:
+  rate:
+    profile: 0
+    rates:
+      - mode: 2
+        rate:
+          - - 20
+            - 20
+            - 70
+          - - 860
+            - 860
+            - 670
+          - - 0.2
+            - 0.2
+            - 0.2

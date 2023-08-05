@@ -1,0 +1,7 @@
+name: Pilot Rates
+author: Community Provided
+desc: Get your favorite pilot rates applied in one click!
+
+options:
+  - name: pilot
+    title: Choose your pilot
