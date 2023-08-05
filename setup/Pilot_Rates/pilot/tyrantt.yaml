@@ -1,0 +1,19 @@
+name: Tyrantt
+title: Tyrantt actual rates
+desc: test
+
+profile:
+  rate:
+    profile: 0
+    rates:
+      - mode: 2
+        rate:
+          - - 200
+            - 200
+            - 200
+          - - 1000
+            - 1000
+            - 920
+          - - 0.54
+            - 0.54
+            - 0.54
