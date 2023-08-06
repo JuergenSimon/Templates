@@ -4,7 +4,7 @@ desc: Tyrantt actual rates
 
 profile:
   rate:
-    profile: 0
+
     rates:
       - mode: 2
         rate:

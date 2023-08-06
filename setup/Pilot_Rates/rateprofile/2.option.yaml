@@ -1,0 +1,7 @@
+name: rateprofile 2
+title: rateprofile 2
+desc: loads in Rate Profile 2
+
+profile:
+  rate:
+    profile: 1

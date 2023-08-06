@@ -5,3 +5,6 @@ desc: Get your favorite pilot rates applied in one click!
 options:
   - name: pilot
     title: Choose your pilot
+  - name: rateprofile
+    title: Choose which rateprofile to apply it to (1 or 2)
+    
