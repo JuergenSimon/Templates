@@ -1,7 +1,6 @@
 name: Heads
 title: Heads betaflight rates
-desc: 
-
+desc: Heads betaflight rates
 profile:
   rate:
     profile: 0

@@ -1,7 +1,6 @@
 name: fractal
 title: Fractal actual rates
-desc: test
-
+desc: Fractal actual rates
 profile:
   rate:
     profile: 0
