@@ -1,6 +1,7 @@
 name: happymodel_x12_elrs
 title: Happymodel X12 Lite ELRS
 desc: Happymodel X12 Lite ELRS (Normal orientation)
+
 profile:
   gyro_orientation: 0
   motor_pins:

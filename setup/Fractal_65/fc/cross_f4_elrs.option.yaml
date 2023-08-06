@@ -1,6 +1,7 @@
 name: cross_f4_elrs
 title: Happymodel Cross F4 ELRS
 desc: Happymodel Cross F4 ELRS (Upside-Down)
+
 profile:
   motor:
     digital_idle: 9

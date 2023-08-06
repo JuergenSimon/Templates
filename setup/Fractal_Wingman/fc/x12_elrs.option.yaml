@@ -1,6 +1,7 @@
 name: happymodel_x12_elrs
 title: Happymodel X12 ELRS
 desc: Happymodel X12 ELRS (USB facing forwards and down)
+
 profile:
   gyro_orientation: 16
   motor_pins:

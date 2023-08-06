@@ -1,6 +1,7 @@
 name: happymodel_x12_elrs
 title: Happymodel X12 & X12 Lite ELRS
 desc: Happymodel X12 & X12 Lite ELRS (Upside-Down)
+
 profile:
   motor:
     digital_idle: 9
