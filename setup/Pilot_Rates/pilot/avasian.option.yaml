@@ -1,0 +1,19 @@
+name: Avasian
+title: Avasian
+desc: Avasian Betaflight rates
+
+profile:
+  rate:
+    profile: 0
+    rates:
+      - mode: 1
+        rate:
+          - - 1.31
+            - 1.31
+            - 1.15
+          - - 0.74
+            - 0.74
+            - 0.75
+          - - 0.21
+            - 0.21
+            - 0

@@ -4,7 +4,7 @@ desc: Heads betaflight rates
 
 profile:
   rate:
-
+    profile: 0
     rates:
       - mode: 1
         rate:

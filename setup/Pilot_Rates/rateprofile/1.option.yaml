@@ -1,7 +1,0 @@
-name: rateprofile 1
-title: rateprofile 1
-desc: loads in Rate Profile 1
-
-profile:
-  rate:
-    profile: 0
