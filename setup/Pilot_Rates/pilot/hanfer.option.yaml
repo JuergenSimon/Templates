@@ -1,0 +1,19 @@
+name: hanfer
+title: Hanfer
+desc: Hanfer actual rates
+
+profile:
+  rate:
+    profile: 0
+    rates:
+      - mode: 2
+        rate:
+          - - 120
+            - 120
+            - 200
+          - - 750
+            - 750
+            - 530
+          - - 0.45
+            - 0.45
+            - 0.45
