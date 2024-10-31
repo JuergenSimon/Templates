@@ -1,0 +1,19 @@
+name: chaotix
+title: Chaotix
+desc: Chaotix actual rates
+
+profile:
+  rate:
+    profile: 0
+    rates:
+      - mode: 2
+        rate:
+          - - 30
+            - 30
+            - 30
+          - - 800
+            - 800
+            - 700
+          - - 0.45
+            - 0.45
+            - 0
