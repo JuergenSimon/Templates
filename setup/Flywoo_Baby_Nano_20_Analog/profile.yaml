@@ -1,0 +1,120 @@
+meta:
+  version: 515
+  name: default
+  datetime: 1731349861
+motor:
+  digital_idle: 4.5
+  motor_limit: 100
+  dshot_time: 600
+  invert_yaw: 1
+  gyro_orientation: 4
+  torque_boost: 0
+  throttle_boost: 0
+  motor_pins:
+    - 1
+    - 3
+    - 0
+    - 2
+  turtle_throttle_percent: 10
+serial:
+  rx: 1
+  smart_audio: 6
+  hdzero: 0
+filter:
+  gyro:
+    - type: 2
+      cutoff_freq: 100
+    - type: 0
+      cutoff_freq: 0
+  dterm:
+    - type: 1
+      cutoff_freq: 260
+    - type: 0
+      cutoff_freq: 150
+  dterm_dynamic_enable: 1
+  dterm_dynamic_min: 70
+  dterm_dynamic_max: 260
+  gyro_dynamic_notch_enable: 0
+osd:
+  guac_mode: 0
+  callsign: NANO BABY 20
+receiver:
+  protocol: 1
+  lqi_source: 2
+  channel_mapping: 1
+  stick_calibration_limits:
+    - min: -1
+      max: 1
+    - min: -1
+      max: 1
+    - min: -1
+      max: 1
+    - min: 0
+      max: 1
+pid:
+  pid_profile: 0
+  pid_rates:
+    - kp:
+        - 54
+        - 54
+        - 56
+      ki:
+        - 70
+        - 70
+        - 70
+      kd:
+        - 33
+        - 33
+        - 4
+    - kp:
+        - 54
+        - 54
+        - 56
+      ki:
+        - 70
+        - 70
+        - 70
+      kd:
+        - 33
+        - 33
+        - 4
+  stick_profile: 0
+  stick_rates:
+    - accelerator:
+        - 0
+        - 0
+        - 0
+      transition:
+        - 0
+        - 0
+        - 0
+    - accelerator:
+        - 1.5
+        - 1.5
+        - 1
+      transition:
+        - 0.3
+        - 0.3
+        - 0
+  big_angle:
+    kp: 5
+    kd: 0
+  small_angle:
+    kp: 10
+    kd: 3
+  throttle_dterm_attenuation:
+    tda_active: 1
+    tda_breakpoint: 0.35
+    tda_percent: 0.8
+voltage:
+  lipo_cell_count: 2
+  pid_voltage_compensation: 1
+  vbattlow: 3.6
+  actual_battery_voltage: 4.2
+  reported_telemetry_voltage: 4.2
+  use_filtered_voltage_for_warnings: 0
+  vbat_scale: 110
+  ibat_scale: 170
+blackbox:
+  field_flags: 16383
+  sample_rate_hz: 1000
